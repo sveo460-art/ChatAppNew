@@ -1,5 +1,4 @@
 {
-{
   "expo": {
     "name": "ChatAppNew",
     "slug": "ChatAppNew",
@@ -16,4 +15,5 @@
     },
     "web": {}
   }
+}
 }
