@@ -1,46 +1,19 @@
 {
+{
   "expo": {
-    "name": "ChatApp",
-    "slug": "ChatApp",
+    "name": "ChatAppNew",
+    "slug": "ChatAppNew",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sveogg.ChatApp"
+      "bundleIdentifier": "com.sveogg.ChatAppNew"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.sveogg.ChatApp"
+      "package": "com.sveogg.ChatAppNew"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/41164115-3eea-4237-b221-587d9cdd72da",
-      "enabled": true,
-      "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 0
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "41164115-3eea-4237-b221-587d9cdd72da"
-      }
-    }
+    "web": {}
   }
 }
